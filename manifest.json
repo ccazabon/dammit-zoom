@@ -1,7 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Dammit Zoom!",
-  "version": "1.0",
+  "name": "Dammit, Zoom!",
+  "description": "Rewrite Zoom meeting links to automatically use the web client instead of the desktop app.",
+  "version": "0.9",
   "permissions": [
     "declarativeNetRequestWithHostAccess"
   ],
