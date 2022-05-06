@@ -12,15 +12,29 @@ It's particularly annoying on Linux, because
 With this extension, every Zoom meeting link will be redirected to the web
 client join page for the meeting.
 
-This works on Blink-based browsers (Chrome, Vivaldi, Brave, etc).  It 
-should also work on Safari, and possibly on Firefox and others.
+This works on Blink-based browsers (Chrome, Vivaldi, Brave, etc), as they
+support the declarativeNetRequest API from manifest V3.  It may also work on
+Safari or other webkit browsers, but I have no idea if WebKit supports 
+manifest V3.  It currently will not work on Firefox, which does not support
+manifest V3.
+
+Note: I disapprove of the changes Google introduced in manifest V3.  The
+declarativeNetRequest change seems explicitly designed to break ad- and
+tracking-blocker extensions like uBlock Origin, AdBlock Plus, etc.  The fact
+that those types of extensions impact Google's bottom line -- because it is
+primarily an advertising company -- I'm sure had no impact on their decision.
+
+I just haven't made a manifest V2 version of this extension (it would be easy)
+because I don't use Zoom in Firefox, though it's my main personal browser.  I
+only use Zoom for work.
 
 Note that this extension is not currently available through the Chrome
 Web Store.  That's because in order to publish an extension through the
 store -- even if you're not charging money for it -- you have to pay an
 up-front fee to Google, in addition to giving them every personal bit
 of information about yourself, your life, your friends, your email, and
-the rights to your first-born child.
+the rights to your first-born child (there's that advertising business
+again).
 
 You can install this by turning developer-mode on in Chrome/etc, downloading
 this repository, and adding this "unpacked extension" to your browser.
