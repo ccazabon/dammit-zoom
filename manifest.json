@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Dammit Zoom!",
+  "version": "1.0",
+  "permissions": [
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "https://*.zoom.us/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
