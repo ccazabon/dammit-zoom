@@ -13,10 +13,10 @@ With this extension, every Zoom meeting link will be redirected to the web
 client join page for the meeting.
 
 This works on Blink-based browsers (Chrome, Vivaldi, Brave, etc), as they
-support the declarativeNetRequest API from manifest V3.  It may also work on
-Safari or other webkit browsers, but I have no idea if WebKit supports 
-manifest V3.  It currently will not work on Firefox, which does not support
-manifest V3.
+support the declarativeNetRequest API from manifest V3.  Safari is supposed to
+support manifest V3 as of version 15.4.  It may also work on other webkit
+browsers, if they've been updated recently enough.  It currently will not work
+on Firefox, which does not support manifest V3.
 
 Note: I disapprove of the changes Google introduced in manifest V3.  The
 declarativeNetRequest change seems explicitly designed to break ad- and
@@ -26,7 +26,9 @@ primarily an advertising company -- I'm sure had no impact on their decision.
 
 I just haven't made a manifest V2 version of this extension (it would be easy)
 because I don't use Zoom in Firefox, though it's my main personal browser.  I
-only use Zoom for work.
+only use Zoom for work.  I disapprove of the other browsers' acceptance of
+manifest V3, as it helps Google secure even more control over the 'net than it
+already has.
 
 Note that this extension is not currently available through the Chrome
 Web Store.  That's because in order to publish an extension through the
