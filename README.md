@@ -12,16 +12,25 @@ It's particularly annoying on Linux, because
 With this extension, every Zoom meeting link will be redirected to the web
 client join page for the meeting.
 
+### Compatibility
+
 This works on Blink-based browsers (Chomium/Chrome, Vivaldi, Brave, etc), as
-they support the declarativeNetRequest API from manifest V3.  Safari is
-supposed to support manifest V3 as of version 15.4, so it should work, but I
-haven't tested it.  It may also work on other WebKit browsers, if they've been
-updated recently enough.
+they support the declarativeNetRequest API from manifest V3.
+
+Apparently using it with Safari requires you to run it through an 
+[automatic web extension converter with Xcode](https://developer.apple.com/documentation/safariservices/safari_web_extensions/converting_a_web_extension_for_safari),
+though I haven't tried it.
+
+It may also work on other non-Blink WebKit browsers, but I haven't tried any.
 
 It currently will not work on Firefox, which does not support manifest V3.
 See below for rant.
 
-This extension is not currently available through the Chrome Web Store.
+### What about the Chrome web store?
+
+This extension is not currently available through the Chrome Web Store, so it's
+not a one-click install-and-run, unfortunately.
+
 You can install this by turning developer-mode on in Chrome/etc, downloading
 this repository, and adding this "unpacked extension" to your browser.
 
