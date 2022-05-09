@@ -12,29 +12,29 @@ It's particularly annoying on Linux, because
 With this extension, every Zoom meeting link will be redirected to the web
 client join page for the meeting.
 
-This works on Blink-based browsers (Chrome, Vivaldi, Brave, etc), as they
-support the declarativeNetRequest API from manifest V3.  Safari is supposed to
-support manifest V3 as of version 15.4, so it should work, but I haven't
-tested it.  It may also work on other webkit browsers, if they've been updated
-recently enough.
+This works on Blink-based browsers (Chomium/Chrome, Vivaldi, Brave, etc), as
+they support the declarativeNetRequest API from manifest V3.  Safari is
+supposed to support manifest V3 as of version 15.4, so it should work, but I
+haven't tested it.  It may also work on other WebKit browsers, if they've been
+updated recently enough.
 
 It currently will not work on Firefox, which does not support manifest V3.
 See below for rant.
 
-This extension is not currently available through the ChromeWeb Store.  That's
-because in order to publish an extension through the store -- even if you're
-not charging money for it -- you have to pay an up-front fee to Google, in
-addition to giving them every personal bit of information about yourself, your
-life, your friends, your email, and the rights to your first-born child
-(there's that advertising business again).
-
+This extension is not currently available through the Chrome Web Store.
 You can install this by turning developer-mode on in Chrome/etc, downloading
 this repository, and adding this "unpacked extension" to your browser.
+
+It's not in the Chrome store because in order to publish an extension through
+the store -- even if you're not charging money for it -- you have to pay an
+up-front fee to Google, in addition to giving them every personal bit of
+information about yourself, your life, your friends, your email, and the
+rights to your first-born child (there's that advertising business again).
 
 ### Support / bugs
 
 If you have problems with this extension, please let me know.  Open an issue
-on the [Github project page]() .
+on the [Github project page](https://github.com/ccazabon/dammit-zoom) .
 
 ### Manifest V3
 
