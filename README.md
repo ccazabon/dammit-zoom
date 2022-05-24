@@ -12,27 +12,34 @@ It's particularly annoying on Linux, because
 With this extension, every Zoom meeting link will be redirected to the web
 client join page for the meeting.
 
-### Compatibility
+### Compatibility and installation
+
+#### Firefox and other browsers supporting Manifest v2
+
+This should be installable from [this extension's Mozilla add-ons page](https://addons.mozilla.org/en-US/firefox/addon/dammit-zoom-for-firefox/) .
+
+#### Chrome, Vivaldi, Brave, Opera and other browsers supporting Manifest v3
 
 This works on Blink-based browsers (Chomium/Chrome, Vivaldi, Brave, etc), as
 they support the declarativeNetRequest API from manifest V3.
-
-Apparently using it with Safari requires you to run it through an 
-[automatic web extension converter with Xcode](https://developer.apple.com/documentation/safariservices/safari_web_extensions/converting_a_web_extension_for_safari),
-though I haven't tried it.
-
-It may also work on other non-Blink WebKit browsers, but I haven't tried any.
-
-It currently will not work on Firefox, which does not support manifest V3.
-See below for rant.
-
-### What about the Chrome web store?
 
 This extension is not currently available through the Chrome Web Store, so it's
 not a one-click install-and-run, unfortunately.
 
 You can install this by turning developer-mode on in Chrome/etc, downloading
 this repository, and adding this "unpacked extension" to your browser.
+
+Apparently using it with Safari requires you to run it through an 
+[automatic web extension converter with Xcode](https://developer.apple.com/documentation/safariservices/safari_web_extensions/converting_a_web_extension_for_safari) ,
+though I haven't tried it.
+
+It may also work on other non-Blink WebKit browsers, but I haven't tried any.
+
+For Firefox, use the Manifest v2 version above.
+
+See Manifest v3 rant below.
+
+### Why isn't this in the Chrome web store?
 
 It's not in the Chrome store because in order to publish an extension through
 the store -- even if you're not charging money for it -- you have to pay an
