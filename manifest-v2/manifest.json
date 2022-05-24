@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Dammit, Zoom!",
+  "description": "Rewrite Zoom meeting links to automatically use the web client instead of the desktop app.",
+  "version": "0.9",
+  "author": "Charles Cazabon",
+  "categories": ["annoyances", "zoom", "meetings"],
+  "homepage_url": "https://github.com/ccazabon/dammit-zoom",
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.zoom.us/"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
