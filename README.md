@@ -64,10 +64,3 @@ on their decision.
 See [Mozilla's take on this](https://blog.mozilla.org/addons/2019/09/03/mozillas-manifest-v3-faq/)
 for more information.
 
-I haven't made a manifest V2 version of this extension (it would be relatively
-easy) because I don't use Zoom in Firefox, though it's my main personal
-browser.  I only use Zoom for work.  I disapprove of the other browsers'
-acceptance of manifest V3, as it helps Google secure even more control over
-the 'net than it already has.
-
-
